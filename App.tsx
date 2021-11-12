@@ -1,9 +1,8 @@
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
-import { createStackNavigator } from '@react-navigation/stack'
 import { createSharedElementStackNavigator } from 'react-navigation-shared-element'
 import { SnapchatRoutes } from './Model'
-import Stories from './Stories'
+import Story from './Story'
 import Snapchat from './Snapchat'
 
 const Stack = createSharedElementStackNavigator <SnapchatRoutes>()
@@ -19,7 +18,7 @@ const Navigator = () => (
       }}
     >
       <Stack.Screen name="Snapchat" component={Snapchat}/>
-      <Stack.Screen name="Story" component={Stories} sharedElements={(route) => {
+      <Stack.Screen name="Story" component={Story} sharedElements={(route) => {
         return [route.params.story.id]
       }} />
     </Stack.Navigator>
