@@ -21,9 +21,7 @@ const Story = ({ route, navigation }: StoryProps) => {
   const translation = useVector()
 
   const onGestureEvent = useAnimatedGestureHandler({
-    onStart: () => {
-      isGestureActive.value = true
-    },
+    onStart: () => (isGestureActive.value = true),
     onActive: ({ translationX, translationY }) => {
       translation.x.value = translationX
       translation.y.value = translationY 
