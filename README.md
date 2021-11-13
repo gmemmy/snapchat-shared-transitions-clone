@@ -8,12 +8,10 @@
 
 ## :arrow_up: How to Setup
 
-**Step 1:** git clone this repo:
+**Step 1:** git clone this repo.
 
-**Step 2:** cd into the cloned repo:
+**Step 2:** cd into the cloned repo.
 
-**Step 3:** Install all necessary dependencies with `yarn`
+**Step 3:** Install all necessary dependencies with `yarn`.
 
-**Step 4:** Get a Google Places API key and put it in the `src/screens/LocationSelect/index.tsx` file on line 45.
-
-**Step 5:** Follow me - https://github.com/gmemmy/gmemmy 😉
+**Step 4:** Follow me - https://github.com/gmemmy/gmemmy 😉
