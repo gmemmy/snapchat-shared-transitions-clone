@@ -25,4 +25,4 @@
 
 **Step 4:** Run expo ios or expo android 😉
 
-**Step 5:** Follow me - https://github.com/gmemmy/gmemmy 😉
+**Step 5:** Follow me - https://github.com/gmemmy 😉
